@@ -126,7 +126,7 @@ body{
     background: linear-gradient(135deg, rgb(255, 255, 255) 0%,  var(--main-color) 100%);
 }
 .profile-pic {
-height: 11rem;
+height: 8rem;
 width: auto;
 border-radius: 50%;
 display: block;
@@ -259,6 +259,7 @@ to {
     font-weight: bold;
 
     margin: 0 auto;
+    margin-bottom: 20px;
     padding: 10px;
     text-align: center;
     color: var(--main-color);
@@ -268,12 +269,14 @@ to {
     font-size: 1.5rem;
     font-weight: 400;
 }
-.aboutDetails{
+.aboutDetails {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 140px;
+    gap: 40px;
+    /* Adjust the value as needed */
 }
 
 /* .aboutText {
@@ -467,7 +470,10 @@ footer {
     margin: 0 0.5rem;
     font-size: 2rem;
 }
-
+.profile{
+    height: 400px;
+    
+}
 
 
 
@@ -891,7 +897,7 @@ skew to change the 'thickness' of the glitch.*/
 
     }
     .mainProfileImg img {
-        height: 15rem;
+        height: 7rem;
         width: auto;
         border-radius: 50%;
         display: block;
@@ -900,7 +906,7 @@ skew to change the 'thickness' of the glitch.*/
 }
 @media (max-width: 665px) {
     .mainProfileImg img {
-        height: 15rem;
+        height: 12rem;
         width: auto;
         border-radius: 50%;
         display: block;
